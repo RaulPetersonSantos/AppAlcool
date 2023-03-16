@@ -49,6 +49,7 @@ class CalculatorView: UIView {
         txt.keyboardType = .decimalPad
         txt.placeholder = "Preço do Àlcool"
         txt.textColor = .darkGray
+        txt.addDoneBtnOnKeyBoard()
         return txt
     }()
     
@@ -61,6 +62,8 @@ class CalculatorView: UIView {
         txt.keyboardType = .decimalPad
         txt.placeholder = "Preço da Gasolina"
         txt.textColor = .darkGray
+        txt.addDoneBtnOnKeyBoard()
+        
         return txt
     }()
     
@@ -73,7 +76,7 @@ class CalculatorView: UIView {
         btn.setTitleColor(.white, for: .normal)
         btn.clipsToBounds = true
         btn.layer.cornerRadius = 8
-        btn.backgroundColor = .darkGray
+        btn.backgroundColor = UIColor(named: "PinkColor")
         btn.addTarget(self, action: #selector(tappedCalculateBtn), for: .touchUpInside)
          
         return btn

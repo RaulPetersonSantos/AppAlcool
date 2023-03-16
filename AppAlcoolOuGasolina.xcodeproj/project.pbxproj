@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E335919F29C2285300099140 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E335919E29C2285300099140 /* ResultVC.swift */; };
+		E33591A129C2287D00099140 /* ResultView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E33591A029C2287D00099140 /* ResultView.swift */; };
 		E38D2B0029AE240200E52C72 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38D2AFF29AE240200E52C72 /* AppDelegate.swift */; };
 		E38D2B0229AE240200E52C72 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38D2B0129AE240200E52C72 /* SceneDelegate.swift */; };
 		E38D2B0429AE240200E52C72 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38D2B0329AE240200E52C72 /* HomeVC.swift */; };
@@ -15,10 +17,18 @@
 		E38D2B1629AE2D7800E52C72 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38D2B1529AE2D7800E52C72 /* HomeView.swift */; };
 		E38D2B1929AE477400E52C72 /* CalculatorVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38D2B1829AE477400E52C72 /* CalculatorVC.swift */; };
 		E38D2B1B29AE632D00E52C72 /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E38D2B1A29AE632D00E52C72 /* CalculatorView.swift */; };
+		E3B4AAE729C3369500C2CE72 /* UITextField+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B4AAE629C3369500C2CE72 /* UITextField+Extension.swift */; };
+		E3B4AAE929C3404000C2CE72 /* UIViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B4AAE829C3404000C2CE72 /* UIViewController+Extension.swift */; };
 		E3C06E6E29AFA799001A9540 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3C06E6D29AFA799001A9540 /* Alert.swift */; };
+		FD3AE7543BBFCDFC39981A53 /* Pods_AppAlcoolOuGasolina.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D88AFA3D6BDFCCE92197E70E /* Pods_AppAlcoolOuGasolina.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		462D803FD89D20C42E9BD6A0 /* Pods-AppAlcoolOuGasolina.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAlcoolOuGasolina.debug.xcconfig"; path = "Target Support Files/Pods-AppAlcoolOuGasolina/Pods-AppAlcoolOuGasolina.debug.xcconfig"; sourceTree = "<group>"; };
+		466DD527E5F1D8847DC25463 /* Pods-AppAlcoolOuGasolina.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AppAlcoolOuGasolina.release.xcconfig"; path = "Target Support Files/Pods-AppAlcoolOuGasolina/Pods-AppAlcoolOuGasolina.release.xcconfig"; sourceTree = "<group>"; };
+		D88AFA3D6BDFCCE92197E70E /* Pods_AppAlcoolOuGasolina.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AppAlcoolOuGasolina.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E335919E29C2285300099140 /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		E33591A029C2287D00099140 /* ResultView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultView.swift; sourceTree = "<group>"; };
 		E38D2AFC29AE240200E52C72 /* AppAlcoolOuGasolina.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AppAlcoolOuGasolina.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E38D2AFF29AE240200E52C72 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E38D2B0129AE240200E52C72 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -29,6 +39,8 @@
 		E38D2B1529AE2D7800E52C72 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		E38D2B1829AE477400E52C72 /* CalculatorVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorVC.swift; sourceTree = "<group>"; };
 		E38D2B1A29AE632D00E52C72 /* CalculatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
+		E3B4AAE629C3369500C2CE72 /* UITextField+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITextField+Extension.swift"; sourceTree = "<group>"; };
+		E3B4AAE829C3404000C2CE72 /* UIViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+Extension.swift"; sourceTree = "<group>"; };
 		E3C06E6D29AFA799001A9540 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -37,17 +49,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD3AE7543BBFCDFC39981A53 /* Pods_AppAlcoolOuGasolina.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		01180B8934D753286EF22B2A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				462D803FD89D20C42E9BD6A0 /* Pods-AppAlcoolOuGasolina.debug.xcconfig */,
+				466DD527E5F1D8847DC25463 /* Pods-AppAlcoolOuGasolina.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		1D323B1D6CBD0466E626BBF4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D88AFA3D6BDFCCE92197E70E /* Pods_AppAlcoolOuGasolina.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E335919929C227F500099140 /* Result */ = {
+			isa = PBXGroup;
+			children = (
+				E335919E29C2285300099140 /* ResultVC.swift */,
+			);
+			path = Result;
+			sourceTree = "<group>";
+		};
 		E38D2AF329AE240200E52C72 = {
 			isa = PBXGroup;
 			children = (
 				E38D2AFE29AE240200E52C72 /* AppAlcoolOuGasolina */,
 				E38D2AFD29AE240200E52C72 /* Products */,
+				01180B8934D753286EF22B2A /* Pods */,
+				1D323B1D6CBD0466E626BBF4 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -62,6 +103,8 @@
 		E38D2AFE29AE240200E52C72 /* AppAlcoolOuGasolina */ = {
 			isa = PBXGroup;
 			children = (
+				E3B4AAE529C3367B00C2CE72 /* Extension */,
+				E335919929C227F500099140 /* Result */,
 				E3C06E6C29AFA77E001A9540 /* Alert */,
 				E38D2B1729AE475600E52C72 /* Calculator */,
 				E38D2B1429AE2D6400E52C72 /* View */,
@@ -88,6 +131,7 @@
 			children = (
 				E38D2B1529AE2D7800E52C72 /* HomeView.swift */,
 				E38D2B1A29AE632D00E52C72 /* CalculatorView.swift */,
+				E33591A029C2287D00099140 /* ResultView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -98,6 +142,15 @@
 				E38D2B1829AE477400E52C72 /* CalculatorVC.swift */,
 			);
 			name = Calculator;
+			sourceTree = "<group>";
+		};
+		E3B4AAE529C3367B00C2CE72 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				E3B4AAE629C3369500C2CE72 /* UITextField+Extension.swift */,
+				E3B4AAE829C3404000C2CE72 /* UIViewController+Extension.swift */,
+			);
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		E3C06E6C29AFA77E001A9540 /* Alert */ = {
@@ -115,9 +168,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E38D2B1029AE240500E52C72 /* Build configuration list for PBXNativeTarget "AppAlcoolOuGasolina" */;
 			buildPhases = (
+				E402357DDA59AC5D44A24FD0 /* [CP] Check Pods Manifest.lock */,
 				E38D2AF829AE240200E52C72 /* Sources */,
 				E38D2AF929AE240200E52C72 /* Frameworks */,
 				E38D2AFA29AE240200E52C72 /* Resources */,
+				62D9A1E38E4B7DD9A967E5C3 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -173,14 +228,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		62D9A1E38E4B7DD9A967E5C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppAlcoolOuGasolina/Pods-AppAlcoolOuGasolina-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AppAlcoolOuGasolina/Pods-AppAlcoolOuGasolina-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AppAlcoolOuGasolina/Pods-AppAlcoolOuGasolina-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E402357DDA59AC5D44A24FD0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AppAlcoolOuGasolina-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E38D2AF829AE240200E52C72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E38D2B1929AE477400E52C72 /* CalculatorVC.swift in Sources */,
+				E3B4AAE929C3404000C2CE72 /* UIViewController+Extension.swift in Sources */,
+				E335919F29C2285300099140 /* ResultVC.swift in Sources */,
+				E33591A129C2287D00099140 /* ResultView.swift in Sources */,
 				E38D2B0429AE240200E52C72 /* HomeVC.swift in Sources */,
 				E38D2B1629AE2D7800E52C72 /* HomeView.swift in Sources */,
+				E3B4AAE729C3369500C2CE72 /* UITextField+Extension.swift in Sources */,
 				E38D2B0029AE240200E52C72 /* AppDelegate.swift in Sources */,
 				E38D2B1B29AE632D00E52C72 /* CalculatorView.swift in Sources */,
 				E38D2B0229AE240200E52C72 /* SceneDelegate.swift in Sources */,
@@ -318,6 +419,7 @@
 		};
 		E38D2B1129AE240500E52C72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 462D803FD89D20C42E9BD6A0 /* Pods-AppAlcoolOuGasolina.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -348,6 +450,7 @@
 		};
 		E38D2B1229AE240500E52C72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 466DD527E5F1D8847DC25463 /* Pods-AppAlcoolOuGasolina.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

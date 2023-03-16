@@ -11,7 +11,6 @@ class CalculatorVC: UIViewController {
 
     
     var screen: CalculatorView?
-    
     var alert: Alert?
 
     
@@ -22,6 +21,7 @@ class CalculatorVC: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        hideKeyBoardWhenTappedAround()
         alert = Alert(controller: self)
         screen?.delegate(delegate: self)
     }
@@ -34,7 +34,7 @@ class CalculatorVC: UIViewController {
             alert?.showAlertInformation(title: "Atenção!", message: "Informe os valores do àlcool e da gasolina")
             return false
         } else if ethanolPrice.isEmpty {
-            alert?.showAlertInformation(title: "Atenção!", message: "Informe os valore do Alcool")
+            alert?.showAlertInformation(title: "Atenção!", message: "Informe os valor do Alcool")
             return false
         }   else if gasPrice.isEmpty {
             alert?.showAlertInformation(title: "Atenção!", message: "Informe o valor da gasolina")
@@ -50,18 +50,20 @@ extension CalculatorVC: CalculatorProtocol {
     func tappedCalculateBtn() {
         
         if validateTextFields() {
-            
             let formatter = NumberFormatter()
             formatter.numberStyle = .decimal
-            
+
             let ethanolPrice: Double = (formatter.number(from: screen?.alcoolTextField.text ?? "0.0") as? Double) ?? 0.0
             let gasPrice: Double = (formatter.number(from: screen?.gasolinaTextField.text ?? "0.0") as? Double) ?? 0.0
-            
+
+            var vc: ResultVC?
             if ethanolPrice / gasPrice > 0.7 {
-                print("Melhor utilizar gasolina")
+                vc = ResultVC(bestFuel: .gas)
             } else {
+                vc = ResultVC(bestFuel: .ethanol)
                 print("Melhor utilizar alchool")
             }
+            navigationController?.pushViewController(vc ?? UIViewController(), animated: true)
         }
     }
     
